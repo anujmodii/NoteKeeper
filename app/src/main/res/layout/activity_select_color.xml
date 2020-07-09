@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectColor">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:foregroundGravity="center"
+        android:rowCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:background="#E3BDBC"
+            android:tag="E3BDBC"
+            android:onClick="colorSelected"/>
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:background="#F47B78"
+            android:tag="F47B78"
+            android:onClick="colorSelected"/>
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:background="#89F6673A"
+            android:tag="89F6673A"
+            android:onClick="colorSelected"/>
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:background="#C3F6669A"
+            android:tag="C3F6669A"
+            android:onClick="colorSelected"/>
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:background="#BBC37490"
+            android:tag="BBC37490"
+            android:onClick="colorSelected"/>
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:background="#F4B0CF"
+            android:tag="F4B0CF"
+            android:onClick="colorSelected"/>
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:background="#57039BE5"
+            android:tag="57039BE5"
+            android:onClick="colorSelected"/>
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:background="#C3DFED"
+            android:tag="C3DFED"
+            android:onClick="colorSelected"/>
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:background="#A3BBC6"
+            android:tag="A3BBC6"
+            android:onClick="colorSelected"/>
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:background="#8143A047"
+            android:tag="8143A047"
+            android:onClick="colorSelected"/>
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:background="#D3FBA8"
+            android:tag="D3FBA8"
+            android:onClick="colorSelected"/>
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:background="#A9C58C"
+            android:tag="A9C58C"
+            android:onClick="colorSelected"/>
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:background="#F6CF9E"
+            android:tag="F6CF9E"
+            android:onClick="colorSelected"/>
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:background="#C9F3C55A"
+            android:tag="C9F3C55A"
+            android:onClick="colorSelected"/>
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:text="default"
+            android:background="#89D1CFD0"
+            android:tag="89D1CFD0"
+            android:onClick="colorSelected"/>
+    </GridLayout>
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

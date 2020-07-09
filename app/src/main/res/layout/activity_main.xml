@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+        <GridLayout
+            android:id="@+id/mainGridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:rowCount="1"
+            android:columnCount="5">
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:hint="Title"
+                android:id="@+id/searchTitle"
+                android:layout_columnWeight="3" />
+
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="40dp"
+                android:background="@drawable/sort"
+                android:onClick="sortBy"
+                android:id="@+id/sortByButton" />
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:background="@drawable/grid_view"
+                android:onClick="layoutChange"
+                android:id="@+id/layoutTypeSwitch" />
+        </GridLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/myRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="670dp"
+        android:layout_below="@+id/mainGridLayout"
+        android:layout_marginTop="10dp" />
+</RelativeLayout>
